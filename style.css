@@ -1,15 +1,34 @@
-body {
-    margin-bottom: 50px;
+
+*{
+    margin: 0;
+    padding: 0;
 }
-h1 {
+h1{
+    text-align: center;
+    text-decoration: underline;
+    font-family: cambria;
     font-size: 38px;
     margin-left: 10px;
-    }
+    color: white;
+           
+}
+
+body{
+    background-image: url(/assets/background.png);
+    background-size: 100%;
+}
+
+h3{
+    margin-left: 7rem;
+    color: #ffffff;
+    font-family: times;
+    font-size: 1.5rem;
+}
 
 p {
     font-family: Arial;
     font-size: 16px;
-    margin-left: 10px;
+    margin-left: 30px;
 }
 
 img {
@@ -17,6 +36,29 @@ img {
     height: 320px;
     margin-top: 5px;
 }
+
+
+.faixa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #639C9D;
+}
+
+.texto{
+    color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
+}
+      
+.topico{
+    color: #ffffff;
+    font-family: Times;
+    font-size: 24px;
+}
+
 
 #margem {
     margin-left: 250px;
