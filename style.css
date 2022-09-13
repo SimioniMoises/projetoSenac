@@ -1,7 +1,13 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
 h1{
-    text-align: left;
-    font-family: arial;
-    font-size: 24px;
+    text-align: center;
+    text-decoration: underline;
+    font-family: cambria;
+    font-size: 3rem;
     color: white;
            
 }
@@ -12,7 +18,30 @@ background-size: 100%;
 
 }
 
+h3{
+    margin-left: 7rem;
+    color: #ffffff;
+    font-family: times;
+    font-size: 1.5rem;
+}
 
+.faixa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 
-    
+    background-color: #639C9D;
+}
+
+.texto{
+    color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
+}
       
+.topico{
+    color: #ffffff;
+    font-family: Times;
+    font-size: 24px;
+}
