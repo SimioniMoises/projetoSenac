@@ -1,8 +1,4 @@
 
-*{
-    margin: 0;
-    padding: 0;
-}
 h1{
     text-align: center;
     text-decoration: underline;
@@ -31,19 +27,12 @@ p {
     margin-left: 30px;
 }
 
-img {
-    width: 500px;
-    height: 320px;
-    margin-top: 5px;
-}
-
 
 .faixa{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
     background-color: #639C9D;
 }
 
@@ -59,7 +48,26 @@ img {
     font-size: 24px;
 }
 
+.margem {
+    width: 500px;
+    height: 320px;
+    margin-top: 5px;
+}
 
-#margem {
-    margin-left: 250px;
+#recuo{
+    margin-left: 300px;
+}
+
+#icon{
+    width: 200px;
+    height: 200px;
+}
+
+#atent{
+    color: #EB1D36;
+    text-decoration: underline;
+}
+
+li{
+    display: inline-block;
 }
