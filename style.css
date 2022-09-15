@@ -18,7 +18,9 @@ h3{
     margin-left: 7rem;
     color: #ffffff;
     font-family: times;
-    font-size: 1.5rem;
+    font-size: 1.5rem;  
+    font-size: 1.17em;   
+    font-weight: bold;
 }
 
 p {
@@ -51,16 +53,17 @@ p {
 .margem {
     width: 500px;
     height: 320px;
-    margin-top: 5px;
+    margin-right: 20px;
 }
 
 #recuo{
-    margin-left: 300px;
+    margin-left: 250px;
 }
 
 #icon{
     width: 200px;
     height: 200px;
+    
 }
 
 #atent{
@@ -71,3 +74,28 @@ p {
 li{
     display: inline-block;
 }
+
+h4{
+
+color: #ffffff;
+text-align: right;
+font-family: Times New Roman;
+font-size: 24px;
+}
+
+#alinhar{
+
+margin-left: 550px;
+width: 500px;
+height: 320px;
+
+
+}
+
+.espacoTexto{
+
+margin-top: -50px;
+
+
+}
+
