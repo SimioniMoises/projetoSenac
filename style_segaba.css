@@ -1,0 +1,109 @@
+body{
+    background-image: url(/assets/background.png);
+    background-size: 100%;
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+    font-family: cambria;
+    font-size: 38px;
+    margin-left: 10px;
+    color: white;
+           
+}
+
+h2{
+    margin-left: 7rem;
+    color: #ffffff;
+    font-family: times;
+    font-size: 1.5rem;
+}
+
+h3{
+    color: #ffffff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 2.5rem;
+
+}
+
+p {
+    font-family: Arial;
+    font-size: 16px;
+    margin-left: 150px;
+}
+
+a{
+    color:#EB1D36
+}
+
+.faixa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #639C9D;
+}
+
+.texto{
+    color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    margin-top: 0px;
+}
+      
+.topico{
+    color: #ffffff;
+    font-family: Times;
+    font-size: 24px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.margem {
+    width: 500px;
+    height: 320px;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.imgs{
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    margin: 0px;
+    margin-left: 100px;
+}
+
+.recuo{
+    margin-left: 100px;
+}
+
+#espaço{
+    margin-left: 300px;
+    display: inline-block;
+}
+
+
+#icon{
+    width: 200px;
+    height: 200px;
+}
+
+.atent{
+    color: #EB1D36;
+    text-decoration: underline;
+}
+
+#rodape{
+    color: #ffffff;
+    font-family: Times;
+    font-size: 24px;
+    text-align: right;
+}
+
+li{
+    display: inline-block;
+}
